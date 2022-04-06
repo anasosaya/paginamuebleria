@@ -1,0 +1,107 @@
+h2{color: #7a7a7a;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+font-weight: bold;}
+
+h3{color: #b9b8b8;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: bold;}
+
+h5{color: #adadad;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+font-weight: bold;
+font-size:medium;}
+
+p{color: #9c9b9b;}
+
+
+
+.imagenprincipal{position:relative;max-width:100% ;}
+
+.segundaimagen {position:relative;max-width:100% ;}
+
+.bordesredondeados{border-radius: 15px;}
+
+
+.divcontenedor1 {
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+gap: 10px;
+height: 190px}
+
+.divcontenedor2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+height: 190px}
+
+.divcontenedor3 {
+ display: grid;
+grid-template-columns: repeat(4, 1fr);
+gap: 10px;
+height: 190px}    
+
+.divcontenedor4 {
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+gap: 10px;
+height: 190px}
+
+
+.texto1 
+ {color: #9c9b9b; font-weight: bold; 
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;}
+
+.redes1{width: 50px;
+color: #ffffff;}
+
+p{font-family: Arial, Helvetica, sans-serif; 
+    font-size: medium;}
+
+
+    .menupadre{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between}
+
+    .imagenlogo{width: 400px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;}
+
+        ul{list-style: none; font-size: 0%; padding: 0%;}
+        
+    li{color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif; font-size: 15px;
+    text-align: center; 
+    list-style: none; 
+    display: inline-block;
+    width: 20%; 
+    border-radius: 8px;
+    position: relative; margin-top: 20px;
+    background-color: #646464;
+    text-decoration: none;}
+
+    a{font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    align-items: center;
+    color: #fcfcfc;}
+
+    a:hover 
+    {background-color: #c9c9c9;
+    position: relative;
+    border-radius: 8px;}
+
+
+
+.referencialink
+{font-size: 15px;
+text-decoration: none;
+color: #7a7a7a;}
+
+
+footer{width: 100%;
+background-color: #c9c9c9;}
