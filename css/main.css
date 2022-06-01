@@ -1,111 +1,229 @@
-h2{color: #7a7a7a;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
-    font-weight: bold;}
-    
-    h3{color: #b9b8b8;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: bold;}
-    
-    h5{color: #adadad;
+    h2 {
+    color: #7a7a7a;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
     font-weight: bold;
-    font-size:medium;}
+    }
     
-    p{color: #9c9b9b;}
+    h3 {
+        color: #b9b8b8;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: bold;
+    }
     
+    h5 {
+        color: #adadad;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+        font-weight: bold;
+        font-size:medium;
+    }
     
+    p {
+        color: #9c9b9b;
+    }
     
-    .imagenprincipal{position:relative;}
+    .imagenprincipal {
+        position:relative;
+    }
     
-    
-    .bordesredondeados{border-radius: 15px;}
+    .bordesredondeados {
+        border-radius: 15px;
+    }
     
     
     .divcontenedor1 {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
-    height: 190px}
+    height: 190px
+    }
     
     .divcontenedor2 {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         gap: 10px;
-    height: 190px}
+        height: 190px
+    }
     
     .divcontenedor3 {
      display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
-    height: 190px}    
+     grid-template-columns: repeat(4, 1fr);
+     gap: 10px;
+     height: 190px
+    }    
     
     .divcontenedor4 {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
-    height: 190px}
+    height: 190px;
+    }
     
     
-    .texto1 
-     {color: #9c9b9b; font-weight: bold; 
-        font-size: small;
-        font-family: Arial, Helvetica, sans-serif;}
+    .texto1 {
+    color: #9c9b9b; font-weight: bold; 
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    }
     
-    .redes1{width: 50px;
-    color: #ffffff;}
+    .redes1 {
+    width: 50px;
+    color: #ffffff;
+    }
     
-    p{font-family: Arial, Helvetica, sans-serif; 
-        font-size: medium;}
+    p {
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: medium;
+    }
     
+    .menunuevo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    padding: 0 12px;
+    color: #5e5b5b;
+    font-size: small;
+    }
     
-        .menupadre{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between; 
-        padding: 0 12px;}
+    .imagenlogo {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    }
     
-        .imagenlogo{width: 400px;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-evenly;}
-    
-            ul{list-style: none; font-size: 0%; padding: 0%;}
+    ul {
+    list-style: none; font-size: 0%; padding: 0%;
+    }
             
-        li{color: #ffffff;
-        font-family: Arial, Helvetica, sans-serif; font-size: 15px;
-        text-align: center; 
-        list-style: none; 
-        display: inline-block;
-        width: 20%; 
-        border-radius: 8px;
-        position: relative; margin-top: 20px;
-        background-color: #646464;
-        text-decoration: none;}
-    
-        a{font-family: Arial, Helvetica, sans-serif;
-        font-size: 15px;
-        display: block;
-        padding: 8px;
-        text-decoration: none;
-        align-items: center;
-        color: #fcfcfc;}
-    
-        a:hover 
-        {background-color: #c9c9c9;
-        position: relative;
-        border-radius: 8px;}
-    
-    
-    
-    .referencialink
-    {font-size: 15px;
+    li {
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif; font-size: 15px;
+    text-align: center; 
+    list-style: none; 
+    display: inline-block;
+    width: 20%; 
+    border-radius: 8px;
+    position: relative; margin-top: 20px;
+    background-color: #fffefe;
     text-decoration: none;
-    color: #7a7a7a;}
+    }
     
+    a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    align-items: center;
+    color: #5e5b5b;
+    }
     
-    footer{width: 100%;
-    background-color: #c9c9c9;}
+    a:hover {
+    position: relative;
+    border-radius: 8px;
+    }
     
-    *{box-sizing: border-box;}
-    img{max-width: 100%;}
-    .space-col{padding: 0 12px;}
+    .referencialink {
+    font-size: 15px;
+    text-decoration: none;
+    color: #7a7a7a;
+    }
+    
+    footer {
+    width: 100%;
+    background-color: #c9c9c9;
+    }
+    
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .container-form{
+        width: 100%;
+        max-width: 1100px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 50px;
+    }
+
+    .contactotext{
+        font-size: 35px;
+    }
+
+    .parrafotext{
+        line-height: 1.6;
+        margin-bottom: 30px;
+    }
+
+    img {
+    max-width: 100%;
+    }
+    
+    .space-col {
+    padding: 0 12px;
+    }
+
+    .telefono {
+        font-size: 20px;
+        display: inline-block;
+        text-decoration: none;
+        width: 100%;
+        margin: 15px;
+        font-weight: 700;
+    }
+
+    .container-form form .campo, textarea {
+        width: 100%;
+        padding: 15px 10px;
+        font-size: 15px;
+        border: 1px solid #797777;
+        margin-bottom: 10px;
+        border-radius: 6px;
+        outline: 0px;
+    }
+   
+    .container-form form textarea {
+        max-width: 530px;
+        min-width: 530px;
+        min-height: 140px;
+        max-width: 150px;
+    }
+
+    .container-form .btn-enviar {
+        padding: 12px;
+        font-size: 15px;
+        border: none;
+        outline: 0px;
+        background-color: #a09c9c;
+        color: whitesmoke;
+        border-radius: 6px;
+        margin-bottom: 100px;
+    }
+
+    .refrenciacontacto {
+        font-size: 20px;
+        text-decoration: none;
+    }
+
+    .nosotros {
+         margin-bottom: 30px;
+    }
+
+    .divcontenedornuevo {
+        margin-bottom: 80px;
+    }
+
+    .divcontenedornuevo1 {
+        margin-bottom: 20px;
+    }
+    
+    .footer2
+    { font-size: 18px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #4b4a4a;
+    }
